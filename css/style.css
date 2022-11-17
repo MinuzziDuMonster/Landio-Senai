@@ -81,7 +81,7 @@ body{background: var(--white);
     border-radius: 4px;
     transition: var(--transition);
 }
-.btn:is(:hover, :focus) {transform: translateY(-2px);
+.btn:is(:hover, :focus){transform: translateY(-2px);
 }
 .btn-primary{
     background: var(--majorelle-blue);
@@ -564,7 +564,7 @@ footer.logo{margin-bottom: 25px;
     .footer-link-box{grid-template-columns: repeat(3, 1fr);
     }
 }
-@media (min-width:992px){
+@media (min-width: 992px){
     .container{max-width:950px
     }
     .section-text{max-width: 450px;
@@ -663,7 +663,7 @@ footer.logo{margin-bottom: 25px;
     .footer-list{width: 140px;
     }
 }
-@media (min-width:1200px){
+@media (min-width: 1200px){
     .container{max-width: 1150px;
     }
     .hero .container{gap: 150px;
