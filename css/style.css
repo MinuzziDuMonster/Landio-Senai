@@ -101,7 +101,7 @@ body{background: var(--white);
     box-shadow: 0 3px 10px hsla(245, 67%, 59%, 0.5);
 }
 .btn-secondary{
-    background: hsla(245, 67%, 59%, 0.5);
+    background: hsla(245, 67%, 59%, 0.15);
     color: var(--majorelle-blue);
 }
 .section-title{text-align: center;}
@@ -126,7 +126,7 @@ body{background: var(--white);
 }
 .header.active{height: 330px;
 }
-.header.container{
+.header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -135,7 +135,7 @@ body{background: var(--white);
 }
 .navbar{
     position: absolute;
-    width: 100px;
+    width: 100%;
     top: 64px;
     left: 0;
     padding-inline: 30px;
@@ -143,7 +143,7 @@ body{background: var(--white);
     opacity: 0;
     transition: 0.5 ease-in-out;
 }
-.header.active.navbar{
+.header.active .navbar{
     visibility: visible;
     opacity: 1;
 }
@@ -249,7 +249,7 @@ body{background: var(--white);
 .about-card:hover .card-icon{
     background: hsla(0, 0%, 100%, 0.15);
     color: var(--white);
-    box-shadow: 0 0 0 8px hsla(0%, 0%, 100%, 0.05);
+    box-shadow: 0 0 0 8px hsla(0, 0%, 100%, 0.05);
 }
 .about-card .card-title{
     margin-bottom: 10px;
@@ -448,7 +448,7 @@ textarea.input-field{
 }
 .contact-link address {font-style: normal;
 }
-.footer{
+footer{
     background: var(--raisin-black-1);
     color: var(--white-opacity);
     font-weight: var(--fw-500);
@@ -457,7 +457,7 @@ textarea.input-field{
 }
 .footer-brand{margin-bottom: 60px;
 }
-footer.logo{margin-bottom: 25px;
+footer .logo{margin-bottom: 25px;
 }
 .footer-text{
     font-size: var(--fs-6);
